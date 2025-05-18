@@ -1,15 +1,13 @@
 # fuel-transfer-preconf-latency
 
-To install dependencies:
+## How to run?
 
-```bash
-bun install
-```
+First install dependencies
+```bun install```
 
-To run:
+Then copy the .env.example
+```cp .env.example .env```
 
-```bash
-bun run index.ts
-```
+Then replace `PRIVATE_KEY` in .env with a funded private key on Fuel testnet
 
-This project was created using `bun init` in bun v1.2.4. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+``` bun run index.ts```
